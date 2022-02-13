@@ -1,0 +1,34 @@
+{
+  "groups": [
+    {
+      "name": "link.xss",
+      "type": "org.springlink.core.tool.support.xss.XssProperties",
+      "sourceType": "org.springlink.core.tool.support.xss.XssProperties"
+    },
+    {
+      "name": "link.xss.url",
+      "type": "org.springlink.core.tool.support.xss.XssUrlProperties",
+      "sourceType": "org.springlink.core.tool.support.xss.XssUrlProperties"
+    }
+  ],
+  "properties": [
+    {
+      "name": "link.xss.enabled",
+      "type": "java.lang.Boolean",
+      "description": "开启xss",
+      "sourceType": "org.springlink.core.tool.support.xss.XssProperties"
+    },
+    {
+      "name": "link.xss.skip-url",
+      "type": "java.util.List<java.lang.String>",
+      "description": "放行url",
+      "sourceType": "org.springlink.core.tool.support.xss.XssProperties"
+    },
+    {
+      "name": "link.xss.url.exclude-patterns",
+      "type": "java.util.List<java.lang.String>",
+      "sourceType": "org.springlink.core.tool.support.xss.XssUrlProperties"
+    }
+  ],
+  "hints": []
+}

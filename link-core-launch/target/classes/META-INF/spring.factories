@@ -1,0 +1,4 @@
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+  org.springlink.core.launch.config.LinkLaunchConfiguration,\
+  org.springlink.core.launch.server.ServerInfo,\
+  org.springlink.core.launch.StartEventListener

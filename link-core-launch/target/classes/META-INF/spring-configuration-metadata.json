@@ -1,0 +1,36 @@
+{
+  "groups": [
+    {
+      "name": "link",
+      "type": "org.springlink.core.launch.properties.LinkProperties",
+      "sourceType": "org.springlink.core.launch.properties.LinkProperties"
+    }
+  ],
+  "properties": [
+    {
+      "name": "link.env",
+      "type": "java.lang.String",
+      "description": "开发环境",
+      "sourceType": "org.springlink.core.launch.properties.LinkProperties"
+    },
+    {
+      "name": "link.is-local",
+      "type": "java.lang.Boolean",
+      "description": "判断是否为 本地开发环境",
+      "sourceType": "org.springlink.core.launch.properties.LinkProperties"
+    },
+    {
+      "name": "link.name",
+      "type": "java.lang.String",
+      "description": "服务名",
+      "sourceType": "org.springlink.core.launch.properties.LinkProperties"
+    },
+    {
+      "name": "link.prop",
+      "type": "java.util.Map<java.lang.String,java.lang.String>",
+      "description": "装载自定义配置link.prop.xxx",
+      "sourceType": "org.springlink.core.launch.properties.LinkProperties"
+    }
+  ],
+  "hints": []
+}

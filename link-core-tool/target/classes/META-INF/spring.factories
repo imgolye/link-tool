@@ -1,0 +1,6 @@
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+  org.springlink.core.tool.config.JacksonConfiguration,\
+  org.springlink.core.tool.config.RedisTemplateConfiguration,\
+  org.springlink.core.tool.config.XssConfiguration,\
+  org.springlink.core.tool.config.MessageConfiguration,\
+  org.springlink.core.tool.config.ToolConfiguration
